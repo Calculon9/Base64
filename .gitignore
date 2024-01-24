@@ -1,2 +1,29 @@
-bin/
-obj/
+# Ignore compiled code folders
+bin
+obj
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore compiled binaries
+*.dll
+*.exe
+*.pdb
+
+# Ignore NuGet packages
+*.nupkg
+
+# Ignore npm packages
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.tmp
