@@ -1,6 +1,6 @@
 # Ignore compiled code folders
-bin
-obj
+bin/
+obj/
 
 # Ignore Visual Studio files
 .vscode/
